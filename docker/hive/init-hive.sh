@@ -53,7 +53,7 @@ cat >${HIVE_HOME}/conf/hive-site.xml <<EOL
     </property>
     <property>
         <name>hive.metastore.uris</name>
-        <value>thrift://${METASTORE_URI:-localhost}:${METASTORE_PORT:-9083}</value>
+        <value>Test</value>
     </property>
     <property>
         <name>hive.server2.thrift.port</name>
